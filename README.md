@@ -6,6 +6,7 @@
 
 Project aims to create a Icon Generator App by using AI.
 
+# Note: Api let us to generate only 100 icon per day.
 
 ## Project Skeleton
 
