@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import axios from "axios";
 import defaultUser from "../assets/default.jpeg" 
 import {FiRotateCw} from "react-icons/fi"
-import {toastErrorNotify, toastWarnNotify} from "../helper/ToastNotify"
+import {toastWarnNotify} from "../helper/ToastNotify"
 import { AuthContext } from "../context/AuthContext";
 
 const Mirror = () => {
