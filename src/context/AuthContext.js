@@ -28,7 +28,7 @@ useEffect(() => {
       toastSuccessNotify(`${displayName} Registered Successfully!`)
 
     } catch (error) {
-      console.log(error.message)
+      toastErrorNotify(error.message)
     }
   };
 
@@ -38,7 +38,7 @@ useEffect(() => {
         navigate("/")
         toastSuccessNotify("Logged in successfully!")
     } catch (error) {
-        console.log(error.message);
+        toastErrorNotify(error.message);
        
     }
   }
